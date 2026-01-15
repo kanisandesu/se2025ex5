@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  int x = 1;
-  int y = 2;
-  printf("%d", x + y);
+  int i = 0;
+  while (i < 5) {
+    printf("%d", i);
+    i++;
+  }
   return 0;
 }
